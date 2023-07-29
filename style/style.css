@@ -1,0 +1,301 @@
+html{
+    font-size: 10px;
+    font-family: 'MacPaw Fixel Text';
+    font-style: normal;
+    --main-color: #3D5E35;
+    --add-color: #667085;
+}
+
+@font-face {
+    font-family: 'MacPaw Fixel Text';
+    src: url('/MacPawFixelText-Regular.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MacPaw Fixel Text Bold';
+    src: url('/MacPawFixelText-Bold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: bold;
+}
+
+.header{
+    margin: 2.4rem 10rem ;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    border-bottom: 0.1rem solid grey;
+    padding: 1rem;
+}
+
+
+.myInstagram{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+    border-image-slice: 1;
+    padding: 0.3rem;
+}
+
+.myInstagram span{margin-left: 5px; font-family: "MacPaw Fixel Text";}
+
+.name{
+    text-align: center;
+    vertival-align: middle;
+
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px 0 0 20px;
+    color: #101828;
+    height: 200%;
+
+}
+#container-1{
+    font-size: 3.6rem;
+    color: var(--main-color);
+    font-family: "MacPaw Fixel Text Bold";
+}
+#container-2{
+    font-size: 1.8rem;
+    color: var(--add-color);
+}
+
+.question-block {
+
+	margin-top: 30px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+.question {
+	margin-top: 0;
+	font-size: 2.4rem;
+	text-align: left;
+	font-family: "MacPaw Fixel Text Bold";
+	gap: 48px;
+}
+.answer {
+	display: flex;
+	justify-content: left;
+	font-size: 1.8rem;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-top: -1.8rem;
+
+}
+.answer input[type="radio"] {
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+    margin: 10px;
+    background: #FFFFFF;
+    border: 1px solid #101828;
+    border-radius: 12px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  content-justify: center;
+}
+
+
+input[type="radio"]:checked{
+    accent-color: #101828;
+}
+
+.submit-btn {
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.next-btn {
+	margin-top: 2rem;
+
+	font-size: 1.8rem;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	font-weight: bold;
+	background-color: var(--main-color);
+	color: #fff;
+	border: 1px solid var(--main-color);
+	border-radius: 8px;
+	cursor: pointer;
+	width: 240px;
+    height: 48px;
+}
+.next-btn:hover {
+	background-color: #3e8e41;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+.unanswered-message{
+    font-size: 1.8rem;
+    color: #f01a24;
+}
+a{
+    text-decoration-line: none;
+    color: #101828;
+}
+/*.result{
+    font-size: 2.4rem;
+    font-weight: bold;
+}*/
+
+.welcome-text{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-content: center;
+    text-align:center;
+    margin-top: 12rem;
+    gap: 16px;
+
+
+}
+.result{
+    color: #101828;
+
+}
+.user-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#email{
+    width: 50%;
+}
+.result-archetype{
+    font-family: 'MacPaw Fixel Text Bold';
+    font-size: 2.4rem;
+    margin-bottom: 2.2rem;
+}
+.result-archetype-top-description{
+    color: var(--add-color);
+    font-size: 1.8rem;
+}
+.top-archetype{
+    margin: 2rem 0;
+}
+#headText{
+    color: var(--main-color);
+    font-family: 'MacPaw Fixel Text Bold';
+    margin: 5rem 10rem 0;
+}
+#descriptionText{
+    color: var(--add-color);
+    font-size: 1.8rem;
+    width: 60%;
+}
+
+.startBtn{
+	margin-top: 2rem;
+	font-size: 1.8rem;
+	box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+	font-weight: bold;
+	background-color: var(--main-color);
+	color: #fff;
+	border: 1px solid var(--main-color);
+	border-radius: 8px;
+	cursor: pointer;
+	width: 480px;
+    height: 48px;
+}
+#logo{
+    margin-top: 1rem;
+}
+
+#username{
+   margin-left: 5px;
+}
+.poits-mean{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+}
+.poits-mean-content{
+    display: flex;
+    margin: 20px;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+}
+.poits-mean-content h1{
+    font-family: 'MacPaw Fixel Text Bold';
+    font-size: 2.4rem;
+}
+.poits-mean-content h2{
+    color: var(--add-color);
+    font-size: 1.8rem;
+    margin: 1rem 0
+}
+b {
+  font-family: 'MacPaw Fixel Text Bold';
+  font-size: 1.8rem;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+    margin: 1.4rem 2rem 0;
+    }
+    .myInstagram {
+    padding: 5px 15px;
+    }
+    #headText{
+    margin: auto;
+    }
+    #descriptionText{
+    font-size: 1.8rem;
+    width: 80%;
+    }
+    .startBtn{
+    width: 280px;
+    height: 48px;}
+    .container{
+    margin: auto;
+	padding: 0;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+    .header{
+    margin: 1.4rem 0.8rem 0;
+    }
+    .instagram {
+    padding: 5px 5px;
+    }
+    /*#headText{
+    margin: 5rem 5rem 0;
+    }*/
+    #username{
+    display: none !important;
+    }
+    .result-archetype-top-description{
+        width=80%;
+    }
+    #container-1{
+        padding: 0;
+        margin-left: 14px;
+    }
+    #container-2{
+        margin-left: 14px;
+        padding: 0;
+    }
+}
+
