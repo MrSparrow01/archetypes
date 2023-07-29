@@ -1,0 +1,14 @@
+[
+	{
+		"archetype": "NAME_OF_ARCHETYPE",
+		"questions": [
+			"QUESTION1",
+			"QUESTION2",
+			"QUESTION3",
+			"QUESTION4",
+			"QUESTION5",
+			"QUESTION6"
+		],
+		"description": "DESCRIPTION_OF_ARCHETYPE"
+	}
+]
