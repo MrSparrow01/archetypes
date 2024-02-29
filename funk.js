@@ -21,7 +21,7 @@ var points = {
 
 
 // Load the questions from the JSON file
-fetch('archetype-questions.json').then(response => response.json()).then(data => {
+fetch(questionData).then(response => response.json()).then(data => {
     // Store all questions in a single array
     data.forEach(archetype => {
       archetype.questions.forEach(question => {
